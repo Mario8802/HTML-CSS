@@ -1,0 +1,17 @@
+div p {
+    color: blue
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+p + p {
+    background-color: yellowgreen;
+}
+
+p ~ span {
+    font-weight: bold;
+    
+}
+
