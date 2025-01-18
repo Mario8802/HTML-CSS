@@ -1,10 +1,5 @@
-This is a paragraph inside a div.
+Uniform Padding: 20px
 
-This paragraph follows another paragraph. Span inside a paragraph.
+Non-Uniform Padding: 10px 30px 20px 40px (Top Right Bottom Left)
 
-This span is a sibling of paragraphs.
-List item 1
-List item 2
-Nested list item 1
-Nested list item 2
-List item 3
+Percentage Padding: 5%

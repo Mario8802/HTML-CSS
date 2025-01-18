@@ -1,11 +1,16 @@
-Main Title
-Subheading
-This is a special paragraph styled uniquely.
+Display Block
+Paragraph with display block
+Paragraph with display block
+Paragraph with display block
 
-This is a regular paragraph.
 
-Highlighted content inside a div.
-First item
-Second item
-Third item
-This paragraph is highlighted.
+Display Inline
+Paragraph with display block
+Paragraph with display block
+Paragraph with display block
+
+
+Display Inline-Block
+Paragraph with display block
+Paragraph with display block
+Paragraph with display block

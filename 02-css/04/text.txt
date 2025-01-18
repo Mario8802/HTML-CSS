@@ -1,10 +1,7 @@
-Home
-About
-Services
-Our Services
-Service 1 description...
+Fixed Width: 300px
 
-Service 2 description...
+Percentage Width: 50%
 
-Additional Information
-More details about our services.
+Viewport Width: 50vw
+
+Min-Max Width: min-width 100px, max-width 300px

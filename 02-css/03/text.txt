@@ -1,13 +1,5 @@
-This is a highlighted paragraph.
+Uniform Margin: 20px
 
-This is a normal paragraph.
+Non-Uniform Margin: 10px 30px 20px 40px (Top Right Bottom Left)
 
-Special content goes here.
-Important Item 1
-Item 2
-Important Item 3
-Fancy link that goes to this page
-
-Fancy link that goes to the SoftUni website
-
-Paragraph with multiple classes!
+Negative Margin: -20px

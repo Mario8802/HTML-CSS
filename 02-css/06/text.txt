@@ -1,8 +1,7 @@
-Home About Us Services Contact
-Welcome to Our Website
-This site offers a variety of services tailored to your needs.
+Solid Border
 
-Our Services
-We specialize in providing high-quality services.
+Dashed Border
 
-© 2024 Company Name. All rights reserved.
+Dotted Border
+
+Mixed Border: Top and Bottom Dashed, Left and Right Solid
