@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 15px/1.5 Verdana, sans-serif;
+    font-weight: bold;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    border: 2px solid green;
+    padding: 2em;
+}
+
+.section {
+    border: 2px solid black;
+    padding: 2em;
+}
+/* old way  */
+/* .section + .section {
+    margin-top: 2em;
+} */
+
+/* new way  */
+
+.section:not(:first-child) {
+    margin-top: 2em;
+}
+
+.section .wrapper {
+    border: 2px solid blue;
+    max-width: 500px;
+    padding: 2em;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.site {
+    border: 2px solid blue;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.site > header,
+.site > main,
+.site > footer {
+    border: 2px solid black;
+    padding: 1em;
+}
+
+.site > header,
+.site > main {
+    margin-bottom: 2em;
+} */
