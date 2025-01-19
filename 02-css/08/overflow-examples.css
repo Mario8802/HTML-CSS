@@ -1,0 +1,27 @@
+div {
+    border: 2px solid black;
+    padding: 1em;
+    width: 300px;
+    height: 150px;
+}
+.visible {
+    overflow: visible;;
+}
+
+.hidden { 
+    overflow: hidden;
+}
+
+.scroll {
+    overflow: scroll;
+}
+
+/* 3. CSS Styling:
+
+· Add classes to the div elements and apply the following styles to the appropriate cases:
+
+· Overflow - Visible
+
+· Overflow - Hidden
+
+· Overflow - Scroll */

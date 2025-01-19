@@ -1,0 +1,34 @@
+.fixed {
+    width: 300px;
+}
+
+.percentage {
+    width: 50%;
+}
+
+.viewport {
+    width: 50vw;
+}
+
+.min-max{
+    min-width: 100px;
+    max-width: 300px;
+}
+
+div {
+    border: 2px solid black;
+    
+    padding: 1em;
+    margin: 1em;
+    
+}
+
+/* Add classes for each div element for the following cases:
+
+1. Fixed Width – 300px
+
+2. Percentage Width – 50%
+
+3. Viewport Width – 50vw
+
+4. Min-Max Width – min-width 100px, max-width 300px */

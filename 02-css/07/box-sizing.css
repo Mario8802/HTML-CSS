@@ -1,0 +1,29 @@
+div {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid #333;
+    margin-bottom: 20px;
+    background: #eee;
+}
+
+.content {
+    box-sizing: content-box;
+}
+
+.border {
+    box-sizing: border-box;
+}
+
+/* 3. CSS Styling:
+
+
+
+· Add classes for the 2 values of box-sizing and apply the following styles:
+
+1. Content-box
+
+1. Box-sizing – content-box
+
+2. Border-box
+
+1. Box-sizing – border-box */
