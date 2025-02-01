@@ -1,0 +1,49 @@
+.site {
+    background: #fff;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1me rgb(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.site-header h1 {
+    padding: 2em;
+}
+
+
+.site-header nav {
+    background: #555;
+
+}
+
+.site-header nav ul {
+    padding: 0;
+}
+
+.site-header nav ul li + li a {
+    border-top: 1px solid #998;
+}
+
+.site-header nav ul li,
+.site-header nav ul a {
+    display: block;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #ddd;
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+.content-main,
+.content-aside {
+    padding: 2em;
+}
+
+.site-footer {
+    background: #555;
+    color: #ddd;
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+}
