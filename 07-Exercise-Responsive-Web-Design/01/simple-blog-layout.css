@@ -1,0 +1,41 @@
+.site {
+    background: #ffffff;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.2);
+    padding: 1.9em;
+    max-width: 55em;
+    margin: 0 auto;
+
+}
+
+.site-header,
+.content-main,
+.content-aside,
+.site-footer {
+    border: 2px solid #ccc;
+    border-radius: 0.3em;
+    padding: 1.5em 2em;
+}
+
+.site-content {
+    padding: 1em 0;
+    display: flex;
+    gap: 1em;
+}
+
+.content-main {
+    flex: 1 0 auto;
+}
+
+.content-aside {
+    flex: 0 0 25ch;
+}
+
+@media (max-width: 800px) {
+    .site-content {
+        flex-direction: column;
+    }
+
+    .content-aside {
+        flex-basis: auto;
+    }
+}
