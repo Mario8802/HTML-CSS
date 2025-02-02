@@ -6,12 +6,18 @@
 }
 
 .site-header h1 {
-    padding: 2em;
+    padding: 2rem;
+    font-weight: 777;
 }
 
+.site-header h1 a {
+    color: green;
+    text-decoration: none;
+}
 
 .site-header nav {
     background: #555;
+    color: #fff;
 
 }
 
@@ -19,9 +25,6 @@
     padding: 0;
 }
 
-.site-header nav ul li + li a {
-    border-top: 1px solid #998;
-}
 
 .site-header nav ul li,
 .site-header nav ul a {
@@ -32,7 +35,7 @@
     text-decoration: none;
     color: #ddd;
     padding: 1em 1.5em;
-    text-align: center;
+    
 }
 
 .content-main,
@@ -46,4 +49,34 @@
     padding: 1em;
     text-align: center;
     font-weight: bold;
+}
+@media (max-width: 999px) {
+    .site-header nav ul li + li a {
+        border-top: 1px solid #998;
+    }
+
+    .site-header nav ul li a {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+    .site {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .site-header nav ul {
+        display: flex;
+    }
+
+    .site-header nav ul li {
+        flex: 1 1 auto;
+    }
+
+.site-content {
+    display: flex;
+}
+
+    
 }
