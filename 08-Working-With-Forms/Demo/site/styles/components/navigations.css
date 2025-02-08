@@ -1,0 +1,36 @@
+/* General Styling for All elements inside nav*/
+
+.site-header nav {
+
+}
+
+.site-header nav ul {
+    
+}
+
+.site-header nav li {
+    display: block;
+}
+
+.site-header nav a {
+    display: block;
+    padding: 1em 1.5em;
+    background: #eee;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: rgb(34, 0, 187);
+}
+
+/* Specific styling for first level*/
+
+.site-header nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.site-header nav> ul > li {
+    flex-grow: 1;
+    flex-basis: 15ch;
+}
+

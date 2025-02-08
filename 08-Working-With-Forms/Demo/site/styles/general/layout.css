@@ -1,4 +1,27 @@
+body {
+    background: #eee;
+}
+
+
 .site {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1);
+    border-radius: 0.3em;
+}
+
+@media (width > 960px) {
+    .site {
+        margin-block: 2em;
+    }
+}
+
+.site-header {
+    padding-bottom: 2em;
+}
+
+.site-footer {
+    padding-top: 2em;
 }
