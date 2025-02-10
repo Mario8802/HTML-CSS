@@ -1,0 +1,13 @@
+
+.container {
+    border: 2px solid blue;
+    display: flex;
+    padding: 2em;
+    
+}
+
+.item {
+    border: 2px solid black;
+    padding: 1.5em;
+    background: lightgrey;
+}
