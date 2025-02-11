@@ -1,0 +1,42 @@
+h2 {
+    font-size: 1em;
+    color: black;
+}
+
+.flex-container {
+    border: 2px solid blue;
+    display: flex;
+    padding: 2em;
+    
+}
+
+.flex-container-row-reverse {
+    border: 2px solid blue;
+    display: flex;
+    padding: 2em;
+    flex-direction: row-reverse;
+    
+}
+
+.flex-container-column {
+    border: 2px solid blue;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    
+}
+
+.flex-container-column-reverse {
+    border: 2px solid blue;
+    display: flex;
+    padding: 2em;
+    flex-direction: column-reverse;
+    
+}
+
+
+.flex-item {
+    border: 2px solid black;
+    padding: 1.5em;
+    background: lightgrey;
+}
