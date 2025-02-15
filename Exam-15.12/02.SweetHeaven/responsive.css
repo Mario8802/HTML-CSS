@@ -1,0 +1,124 @@
+@media (max-width: 600px) {
+    body, html {
+        margin: 0;
+        padding: 0em;
+        overflow-x: hidden; 
+      }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .nav-logo {
+      font-size: 1.3rem;
+      flex-grow: 1;
+      order: 2;
+      text-align: left;
+    }
+  
+    .nav-burger-menu {
+      order: 1;
+      display: block;
+      font-size: 1.5rem;
+      cursor: pointer;
+      margin-right: 1rem;
+      color: white;
+      padding: 2rem;
+    }
+  
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+    }
+
+    .nav-user-btns {
+      flex-direction: column;
+      width: 100%;
+      margin-top: 0.6rem;
+      order: 3;
+    }
+  
+    .nav-user-btns > li > button {
+      width: 100%;
+      padding: 0.9rem 0;
+      font-size: 1rem;
+      
+      text-align: center;
+      box-sizing: border-box; 
+      border: none;
+      
+    }
+  
+    .nav-user-btns > li:last-child > button {
+      margin-bottom: 0;
+    }
+  
+    .content-info {
+      display: flex;
+      flex-direction: column;
+      padding: 1.2rem;
+    }
+  
+    .content-info-welcome {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .content-info-welcome button {
+      width: 100%;
+      padding: 0.9rem;
+      font-size: 1rem;
+      border-radius: 0.9rem;
+    }
+  
+    .content-info-welcome h2 {
+      font-size: 2.5rem;
+    }
+  
+    .content-info-img {
+      display: none;
+    }
+  
+    .content-services {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+    }
+  
+    .content-services div {
+      width: 100%;
+      padding: 1.2rem;
+    }
+  
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.9rem;
+    }
+  
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.6rem;
+    }
+  
+    footer {
+      text-align: center;
+      padding: 1.2rem;
+    }
+  
+    footer p {
+      font-size: 0.9rem;
+    }
+  
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+  
